@@ -1,0 +1,4 @@
+hive -e "use dcd; set hive.cli.print.header = true; select * from amostra_conta_ativa_cpf_final_2015_2016 where numero_agencia = 3153 and numero_conta = '312f0a7b4906cd36c166c2b11ef95cfb'and numero_cpf_cnpj = '6634c9f006f8d9499e577f3d74885a21';" >//home/fgastardi/08_07_individuo_899.tsv
+
+899
+3153 312f0a7b4906cd36c166c2b11ef95cfb 6634c9f006f8d9499e577f3d74885a21 42 
